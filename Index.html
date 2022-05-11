@@ -1,49 +1,36 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Twitch</title>
-    <link href="C:\Users\chivy\Desktop\Escritorio\Escuela\css.css"
-        rel="stylesheet" type="text/css"
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    <h1 class="im"><img src="twitch_logo.png" alt="" height="120" width="150"></h1>
-    <h1 class="tt">Twitch LIVE videos! </h1>
-    <table align="center" class="fr">
-        <tr>
-            <td><img src="logotw2.png" alt="" height="150" width="150"></td>
-            <td class="fr">
-                <p><b>AWS Howdy Partner! Y'all <br>wellcome ExtraHop to the show!</br></b></p>
-                <p>By <a href="https://www.google.com/">AWS</a></p>
-                <p><a href="https://www.google.com/">Show & Podcasts</a></p> 
-            </td>
-        </tr>
-    </table>
-    <h1></h1>
-        <table align="center" class="fr">
-        <tr>
-            <td><img src="logotw2.png" alt="" height="150" width="150"></td>
-            <td class="fr">
-                <p><b>AWS Howdy Partner! Y'all <br>wellcome ExtraHop to the show!</br></b></p>
-                <p>By <a href="https://www.google.com/">AWS</a></p>
-                <p><a href="https://www.google.com/">Show & Podcasts</a></p> 
-            </td>
-        </tr>
-    </table>
-    <h1></h1>
-        <table align="center" class="fr">
-        <tr>
-            <td><img src="logotw2.png" alt="" height="150" width="150"></td>
-            <td class="fr">
-                <p><b>AWS Howdy Partner! Y'all <br>wellcome ExtraHop to the show!</br></b></p>
-                <p>By <a href="https://www.google.com/">AWS</a></p>
-                <p><a href="https://www.google.com/">Show & Podcasts</a></p> 
-            </td>
-        </tr>
-    </table>
-</body>
+<html lang="en">
+      <head>
+        <title>Movies J&L</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js"></script>
+      </head>
+      <body>
+
+        <header>
+          <img class="images" src="tmdb.png" alt="tmdb.png"></img>
+          <form action="#">
+            <input class="search-bar" type="text" id="query" value="" placeholder="Search" />
+            <button class="search-button" onclick="SearchMov()">🔎</button>
+            <button class="filters" onclick="SearchMovRL()">For Realese</button>
+            <button class="filters" onclick="SearchMovPP()">For TopVote</button>
+          </form>
+        </header>
+
+        <div class="movies" id="movies">
+          <div id="movies-list"></div>
+        </div>
+
+        <main id="main">
+          <div class="movie" >
+            <img src="" alt="">
+            <div class="movie-info">
+              <h3></h3>
+              <div>Score:
+                <span class="points"></span>
+              </div>
+            </div>
+          </div>
+        </main>
+      </body>
 </html>
