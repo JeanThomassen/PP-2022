@@ -7,6 +7,15 @@ const API_SEARCH2 = `https://api.themoviedb.org/3/discover/movie?api_key=11c6235
 const API_PP = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
 const API_RL = BASE_URL + '/discover/movie?sort_by=release_dates&' + API_KEY;
 
+//var element = document.getElementById('div');
+
+//Clean
+//while(element.firstChild){
+
+  //element.removeChild(element.firstChild);
+
+//}
+
 //SEARCH
 function searchMovies(query) {
   return fetch(API_SEARCH + '&query=' + query)
